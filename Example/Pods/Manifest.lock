@@ -1,0 +1,16 @@
+PODS:
+  - TCustomizedTransition (0.1.0)
+
+DEPENDENCIES:
+  - TCustomizedTransition (from `../`)
+
+EXTERNAL SOURCES:
+  TCustomizedTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCustomizedTransition: 9724bda2fae5dc0d3418aa25f26a5b2c5ba0f569
+
+PODFILE CHECKSUM: 31ae22e3ae0e32d4d338a72fd3495545eefaf8d9
+
+COCOAPODS: 1.5.3

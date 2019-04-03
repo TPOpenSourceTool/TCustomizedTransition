@@ -1,0 +1,6 @@
+framework module TCustomizedTransition {
+  umbrella header "TCustomizedTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
