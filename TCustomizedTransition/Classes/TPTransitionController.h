@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TPTransitionController : UIPresentationController
-
+@property (nonatomic, assign) BOOL enableGesture;
 @end

@@ -14,8 +14,10 @@
 }
 
 - (void)presentationTransitionDidEnd:(BOOL)completed{
-    UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dimissVc)];
-    [self.containerView addGestureRecognizer:tap];
+    if (self.enableGesture) {
+        UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dimissVc)];
+        [self.containerView addGestureRecognizer:tap];
+    }
 }
 - (void)dimissVc{
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];

@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TCustomizedTransition: 9724bda2fae5dc0d3418aa25f26a5b2c5ba0f569
+  TCustomizedTransition: d187b254ceb96556329f8a9e3d9ef5fbe47f593e
 
-PODFILE CHECKSUM: 31ae22e3ae0e32d4d338a72fd3495545eefaf8d9
+PODFILE CHECKSUM: e699bb37ab8b57f91c64d3cd4cbebaafccb332cc
 
 COCOAPODS: 1.5.3

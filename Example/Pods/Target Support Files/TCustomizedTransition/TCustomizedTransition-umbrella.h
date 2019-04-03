@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "TPTransitionAnimation.h"
+#import "TPTransitionController.h"
+#import "TPTransitionDelegate.h"
 
 FOUNDATION_EXPORT double TCustomizedTransitionVersionNumber;
 FOUNDATION_EXPORT const unsigned char TCustomizedTransitionVersionString[];

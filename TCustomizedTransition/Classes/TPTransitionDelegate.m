@@ -30,6 +30,7 @@
 
 - (UIPresentationController *)presentationControllerForPresentedViewController:(UIViewController *)presented presentingViewController:(UIViewController *)presenting sourceViewController:(UIViewController *)source NS_AVAILABLE_IOS(8_0){
     TPTransitionController *presentation = [[TPTransitionController alloc] initWithPresentedViewController:presented presentingViewController:presenting];
+    [presentation setEnableGesture:self.enableGesture];
     return presentation;
 }
 
@@ -44,6 +45,7 @@
     anmation.dismissBlock = self.dismissBlock;
     return anmation;
 }
+
 
 - (void)beginPresenting{
     [self.presentedVc presentViewController:self.presentingVc animated:YES completion:nil];

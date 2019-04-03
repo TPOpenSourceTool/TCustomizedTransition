@@ -16,6 +16,7 @@ typedef void(^dismissAnimation)(UIView *fromView,id<UIViewControllerContextTrans
 @property(assign,nonatomic) NSTimeInterval duration;
 @property(strong,nonatomic) presentAnimation presentBlock;
 @property(strong,nonatomic) dismissAnimation dismissBlock;
+@property (nonatomic, assign) BOOL enableGesture;
 
 - (instancetype)initWithPresentedController:(UIViewController *)presentedController presentingController:(UIViewController *)presentingController presentBlock:(presentAnimation)presentBlock dismissBlock:(dismissAnimation)dismissBlock;
 
